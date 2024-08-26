@@ -1,9 +1,9 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
+            "title": "2015 - 2017",
+            "cardTitle": "Master of Science - MS, Organic Chemistry",
+            "cardSubtitle":"Govt. Science College, Nrupathunga Road, Bangalore-1",
             "cardDetailedText": "CGPA - 9.5",
             "icon" : {
                 "src": "images/education/lorem-ipsum.png"

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Typewriter from 'typewriter-effect';
 import Fade from 'react-reveal';
 import endpoints from '../constants/endpoints';
 import Social from './Social';
@@ -37,7 +36,8 @@ function Home() {
     <Fade>
       <div style={styles.mainContainer}>
         <h1 style={styles.nameStyle}>{data?.name}</h1>
-        <div style={{ flexDirection: 'row' }}>
+        <h1 style={styles.nameStyle}>{data?.role}</h1>
+        {/* <div style={{ flexDirection: 'row' }}>
           <h2 style={styles.inlineChild}>I&apos;m&nbsp;</h2>
           <Typewriter
             options={{
@@ -46,7 +46,7 @@ function Home() {
               strings: data?.roles,
             }}
           />
-        </div>
+        </div> */}
         <Social />
       </div>
     </Fade>
