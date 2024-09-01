@@ -20,6 +20,7 @@ module.exports = {
   rules: {
     'prefer-template': 0,
     'react/no-children-prop': [0],
-    'linebreak-style': 0
+    'linebreak-style': 0,
+    'no-unused-vars': 0,
   },
 };

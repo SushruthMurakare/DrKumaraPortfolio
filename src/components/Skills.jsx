@@ -1,46 +1,47 @@
-import React, { useEffect, useState } from 'react';
-import ReactMarkdown from 'react-markdown';
-import PropTypes from 'prop-types';
-import Fade from 'react-reveal';
-import { Container } from 'react-bootstrap';
-import Header from './Header';
-import endpoints from '../constants/endpoints';
-import FallbackSpinner from './FallbackSpinner';
+import React from 'react';
+// import { useEffect, useState } from 'react';
+// import ReactMarkdown from 'react-markdown';
+// import PropTypes from 'prop-types';
+// import Fade from 'react-reveal';
+// import { Container } from 'react-bootstrap';
+// import Header from './Header';
+// import endpoints from '../constants/endpoints';
+// import FallbackSpinner from './FallbackSpinner';
 
-const styles = {
-  iconStyle: {
-    height: 75,
-    width: 75,
-    margin: 10,
-    marginBottom: 0,
-  },
-  introTextContainer: {
-    whiteSpace: 'pre-wrap',
-  },
-};
+// const styles = {
+//   iconStyle: {
+//     height: 75,
+//     width: 75,
+//     margin: 10,
+//     marginBottom: 0,
+//   },
+//   introTextContainer: {
+//     whiteSpace: 'pre-wrap',
+//   },
+// };
 
-function Skills(props) {
-  const { header } = props;
-  const [data, setData] = useState(null);
+function Skills() {
+  // const { header } = props;
+  // const [data, setData] = useState(null);
 
-  const renderSkillsIntro = (intro) => (
-    <h4 style={styles.introTextContainer}>
-      <ReactMarkdown children={intro} />
-    </h4>
-  );
+  // const renderSkillsIntro = (intro) => (
+  //   <h4 style={styles.introTextContainer}>
+  //     <ReactMarkdown children={intro} />
+  //   </h4>
+  // );
 
-  useEffect(() => {
-    fetch(endpoints.skills, {
-      method: 'GET',
-    })
-      .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => err);
-  }, []);
+  // useEffect(() => {
+  //   fetch(endpoints.skills, {
+  //     method: 'GET',
+  //   })
+  //     .then((res) => res.json())
+  //     .then((res) => setData(res))
+  //     .catch((err) => err);
+  // }, []);
 
   return (
     <>
-      <Header title={header} />
+      {/* <Header title={header} />
       {data ? (
         <Fade>
           <div className="section-content-container">
@@ -65,13 +66,13 @@ function Skills(props) {
             </Container>
           </div>
         </Fade>
-      ) : <FallbackSpinner /> }
+      ) : <FallbackSpinner /> } */}
     </>
   );
 }
 
-Skills.propTypes = {
-  header: PropTypes.string.isRequired,
-};
+// Skills.propTypes = {
+//   header: PropTypes.string.isRequired,
+// };
 
 export default Skills;

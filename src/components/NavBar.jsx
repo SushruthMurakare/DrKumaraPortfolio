@@ -60,7 +60,7 @@ const NavBar = () => {
       expanded={expanded}
     >
       <Container>
-        {data?.logo && (
+        {/* {data?.logo && (
           <Navbar.Brand href="/">
             <img
               src={data?.logo?.source}
@@ -73,7 +73,7 @@ const NavBar = () => {
               }
             />
           </Navbar.Brand>
-        )}
+        )} */}
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => setExpanded(!expanded)}
