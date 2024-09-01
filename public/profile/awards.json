@@ -1,0 +1,42 @@
+[
+    {
+      "award": "Young Scientist Award",
+      "conference": "International Conference on Innovation in Science and Technology for Sustainable Development",
+      "university": "Maharishi University",
+      "location": "Lucknow, India",
+      "year": 2023
+    },
+    {
+      "award": "Best Poster Award and cash prize",
+      "conference": "Advanced Materials for Environmental Sustainability - AMES",
+      "university": "MIT",
+      "location": "Manipal, India",
+      "year": 2023
+    },
+    {
+      "award": "Best Poster Award",
+      "conference": "Drug Delivery Symposium",
+      "location": "Mangalore, India",
+      "year": 2023
+    },
+    {
+      "award": "Best Poster Award",
+      "conference": "Rinti Banerjee Memorial Conference",
+      "university": "IIT",
+      "location": "Mumbai, India",
+      "year": 2022
+    },
+    {
+      "award": "Best Research Performance Award",
+      "university": "Yenepoya University",
+      "location": "Mangalore, India",
+      "year": 2021
+    },
+    {
+      "award": "Best Oral Presentation Award",
+      "conference": "Annual Conference of Indian Association of Biomedical Scientists",
+      "location": "Mangalore, India",
+      "year": 2021
+    }
+  ]
+  
