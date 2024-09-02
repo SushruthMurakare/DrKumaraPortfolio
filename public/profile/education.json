@@ -1,19 +1,27 @@
 {
-    "education":[
+    "education": [
         {
-            "title": "2015 - 2017",
-            "cardTitle": "Master of Science - MS, Organic Chemistry",
-            "cardSubtitle":"Govt. Science College, Nrupathunga Road, Bangalore-1",
-            "cardDetailedText": "CGPA - 9.5",
-            "icon" : {
-                "src": "images/education/lorem-ipsum.png"
-            }
+            "title": "Jun 2019 - Dec 2023",
+            "cardTitle": "Ph.D. in the Faculty of Allied Health and Basic Sciences",
+            "cardSubtitle": "Yenepoya (Deemed to be University)",
+            "cardDetailedText": "Title: Photoluminescent Carbogenic Nanodots-Based Drug Delivery for Glaucoma Management"
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "2019",
+            "cardTitle": "Graduate Aptitude Test in Engineering (GATE)",
+            "cardSubtitle": "Qualified"
+        },
+        {
+            "title": "Aug 2015 - Jun 2017",
+            "cardTitle": "Master of Science - MS, Organic Chemistry",
+            "cardSubtitle": "Bangalore University",
+            "cardDetailedText": "Title: Synthesis, Characterization, and Role of ZnO Nanoparticle Modified Carbon Electrode as an Electrochemical Sensor towards the Adenine and Guanine Biomolecules"
+        },
+        {
+            "title": "Jun 2012 - Jun 2015",
+            "cardTitle": "Bachelor of Science",
+            "cardSubtitle": "Bangalore University",
+            "cardDetailedText": "Title: Determination of Heavy Metals Present in Soil and Water Samples of Rural and Urban District of Bangalore, Karnataka"
         }
     ]
 }
