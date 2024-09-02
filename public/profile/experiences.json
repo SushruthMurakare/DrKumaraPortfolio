@@ -5,37 +5,43 @@
             "subtitle": "Colorado School of Mines",
             "workType": "Full-time",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Tuning and fabrication of hydrogel imprinted contact lenses to deliver small molecules (single to cassette of drugs) and biologics. Medicated contact lenses to treat glaucoma, bacterial and microbial infections, and ocular glands dysfucntions. Photothermal nanomaterials for ocular therapy."
             ],
             "dateText": "Jan-2024 – Present"
         },
         {
-            "title": "Research Scholar",
+            "title": "Senior Research Scientist",
             "subtitle": "Yenepoya University",
             "workType": "Full-time",
             "workDescription": [
-                "Worked on abc."
+                "Fabrication of contact lens containing photoluminescent quantum dots synthesized by reflux method and drug-loaded nanocomposites, and evaluation of its theranostic potential during the treatment of glaucoma."
             ],
-            "dateText": "Jun 2018 – Dec 2023"
+            "dateText": "Jun 2023 – Dec 2023"
         },
         {
-            "title": "Research Analyst",
-            "subtitle": "Merck India",
-            "workType": "Freelance",
+            "title": "Ph.D. in the Faculty of Allied Health and Basic Sciences",
+            "subtitle": "Yenepoya University",
+            "workType": "Full-time",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Synthesis and characterization of lysozyme responsive nanocomposites containing dual drugs-latanoprost and timolol, its performance and safety evaluations in vitro, ex vivo, and preclinical models. Fabrication of contact lens containing photoluminescent carbon dots synthesized by reflux method and drug-loaded nanocomposites, polymeric micelles, and evaluation of its theranostic potential during the treatment of glaucoma. Synthesis of Near-Infra Red (NIR) radiation responsive doped carbon dots to treat breast cancer and determination of neurotoxicity of nanoparticles using Drosophila melanogaster model.  Development of chitosan and nano-metal clusters for wound healing application. Fabrication of a paper-based sensing device for the detection of heavy metals in environmental samples. Research output in terms of 2 filed Indian Patents, 4 First author publications from Ph.D.Thesis work."
+
             ],
-            "dateText": "Jun 2018 – May 2019"
+            "dateText": "Jun 2019 – Dec 2023"
+        },
+        {
+            "title": "Analyst",
+            "subtitle": "Analyst, Sigma Aldrich – Merck Chemicals Pvt. Ltd",
+            "workType": "",
+            "workDescription": [  
+            ],
+            "dateText": "Jun 2018 – Jun 2019"
         },
         {
             "title": "Internship Trainee",
-            "subtitle": "Merck India",
+            "subtitle": "Merck India Sigma Aldrich – Merck Chemicals Pvt. Ltd",
             "workType": "Internship",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Preparation of Material Safety Data Sheet (MSDS), Harmonized Tariff Code (HSN), CAS number, and smiles generation for chemicals."
             ],
             "dateText": "Feb 2018 – Jun 2018"
         }

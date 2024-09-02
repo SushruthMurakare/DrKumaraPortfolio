@@ -1,5 +1,14 @@
-import React, { useEffect, useState, useContext } from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import React, {
+  useEffect,
+  useState,
+  useContext,
+} from 'react';
+import {
+  Container,
+  Row,
+  Col,
+  Button,
+} from 'react-bootstrap';
 import { ThemeContext } from 'styled-components';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal/Fade';
@@ -31,11 +40,15 @@ const Publications = (props) => {
               {data?.slice(0, numberOfItems).map((publication, index) => (
                 <Fade key={publication.id || index}>
                   <li style={{ marginBottom: '10px' }}>
-                  <h2 className="item-title">
-                        {`${publication.title} - ${publication.year}`}
-                      </h2>
-                    <h4>{publication.authors && ` - ${publication.authors}`}</h4>
-                    <h5>{publication.journal && ` - ${publication.journal}`}</h5>
+                    <h2 className="item-title">
+                      {`${publication.title} - ${publication.year}`}
+                    </h2>
+                    <h4>
+                      {publication.authors && ` - ${publication.authors}`}
+                    </h4>
+                    <h5>
+                      {publication.journal && ` - ${publication.journal}`}
+                    </h5>
                     <br />
                   </li>
                 </Fade>
@@ -62,4 +75,3 @@ Publications.propTypes = {
 };
 
 export default Publications;
-

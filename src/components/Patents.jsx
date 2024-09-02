@@ -1,5 +1,14 @@
-import React, { useEffect, useState, useContext } from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import React, {
+  useEffect,
+  useState,
+  useContext,
+} from 'react';
+import {
+  Container,
+  Row,
+  Col,
+  Button,
+} from 'react-bootstrap';
 import { ThemeContext } from 'styled-components';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal/Fade';
@@ -20,7 +29,8 @@ const Patents = (props) => {
   }, []);
 
   const numberOfItems = showMore && data ? data.length : 6;
-  console.log({data})
+  console.log({ data });
+
   return (
     <>
       <Header title={header} style={{ fontSize: '2em', fontWeight: 'bold' }} />
@@ -31,10 +41,11 @@ const Patents = (props) => {
               {data?.slice(0, numberOfItems).map((patents, index) => (
                 <Fade key={patents.id || index}>
                   <li style={{ marginBottom: '10px' }}>
-                  <h2 className="item-title">
-                        {`${patents.title}`}
-                      </h2>
-                    <h4>{patents.type && `${patents.type}`}{patents.patent_number && ` - ${patents.patent_number}`}</h4>
+                    <h2 className="item-title">{`${patents.title}`}</h2>
+                    <h4>
+                      {patents.type && `${patents.type}`}
+                      {patents.patent_number && ` - ${patents.patent_number}`}
+                    </h4>
                     <br />
                   </li>
                 </Fade>
@@ -52,4 +63,3 @@ Patents.propTypes = {
 };
 
 export default Patents;
-
