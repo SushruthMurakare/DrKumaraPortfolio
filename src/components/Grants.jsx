@@ -1,5 +1,14 @@
-import React, { useEffect, useState, useContext } from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import React, {
+  useEffect,
+  useState,
+  useContext,
+} from 'react';
+import {
+  Container,
+  Row,
+  Col,
+  Button,
+} from 'react-bootstrap';
 import { ThemeContext } from 'styled-components';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal/Fade';
@@ -31,10 +40,12 @@ const Grants = (props) => {
               {data?.slice(0, numberOfItems).map((grants, index) => (
                 <Fade key={grants.id || index}>
                   <li style={{ marginBottom: '10px' }}>
-                  <h2 className="item-title">
-                        {`${grants.grants} - ${grants.year}`}
-                      </h2>
-                    <h4>{grants.conference && ` - ${grants.conference}`}</h4>
+                    <h2 className="item-title">
+                      {`${grants.grants} - ${grants.year}`}
+                    </h2>
+                    <h4>
+                      {grants.conference && ` - ${grants.conference}`}
+                    </h4>
                     <br />
                   </li>
                 </Fade>
@@ -52,4 +63,3 @@ Grants.propTypes = {
 };
 
 export default Grants;
-
