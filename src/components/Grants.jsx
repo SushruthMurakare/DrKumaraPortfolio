@@ -46,6 +46,7 @@ const Grants = (props) => {
                     <h4>
                       {grants.conference && ` - ${grants.conference}`}
                     </h4>
+                    <h5>{grants.role && ` - ${grants.role}`}</h5>
                     <br />
                   </li>
                 </Fade>
