@@ -41,13 +41,14 @@ const Publications = (props) => {
                 <Fade key={publication.id || index}>
                   <li style={{ marginBottom: '10px' }}>
                     <h2 className="item-title">
-                      {`${publication.title} - ${publication.year}`}
+                      {`${index + 1}. ${publication.title} - ${publication.year}`}
                     </h2>
                     <h4>
                       {publication.authors && ` - ${publication.authors}`}
                     </h4>
                     <h5>
                       {publication.journal && ` - ${publication.journal}`}
+                      {publication.note && ` - ${publication.note}`}
                     </h5>
                     <br />
                   </li>
