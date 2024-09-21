@@ -29,6 +29,24 @@ const Publications = (props) => {
   }, []);
 
   const numberOfItems = showMore && data ? data.length : 6;
+  const styles = {
+    publicationImages: {
+      display: 'grid',
+      gridTemplateColumns: 'repeat(4, 1fr)',
+      gap: '5px',
+      marginTop: '10px',
+    },
+    imageItem: {
+      textAlign: 'center',
+    },
+    publicationImage: {
+      width: '100%',
+      height: 'auto',
+      maxWidth: '300px',
+      objectFit: 'cover',
+      marginTop: '10px',
+    },
+  };
 
   return (
     <>
@@ -44,7 +62,8 @@ const Publications = (props) => {
                       {`${index + 1}. ${publication.title} - ${publication.year}`}
                     </h2>
                     <h4>
-                      {publication.authors && ` - ${publication.authors}`}
+                      {publication.myName && (<span style={{ color: 'blue' }}>{publication.myName}</span>)}
+                      {publication.authors && `  ${publication.authors}`}
                     </h4>
                     <h5>
                       {publication.journal && ` - ${publication.journal}`}
@@ -63,6 +82,21 @@ const Publications = (props) => {
               >
                 Show more
               </Button>
+            )}
+            {showMore && (
+              <div style={styles.publicationImages}>
+                {data?.map((publication, index) => (
+                  <div style={styles.imageItem}>
+                    {publication.imageSource && (
+                      <img
+                        src={publication.imageSource}
+                        alt={`Publication ${index + 1}`}
+                        style={styles.publicationImage}
+                      />
+                    )}
+                  </div>
+                ))}
+              </div>
             )}
           </Col>
         </Row>
