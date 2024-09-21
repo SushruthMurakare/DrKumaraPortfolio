@@ -1,84 +1,103 @@
 [
     {
-      "authors": "Kumara, B.N., Shambhu, R., Shim, Y.B. and Prasad, K.S.",
+      "authors": " Shambhu, R., Shim, Y.B. and Prasad, K.S.",
+      "myName" :"Kumara, B.N.,",
       "year": 2024,
       "title": "Lysozyme Activated Co-delivery of Latanoprost-Timolol from Mucoadhesive Chitosan Nanocomposite to Manage Glaucoma",
-      "journal": "RSC Pharmaceutics"
+      "journal": "RSC Pharmaceutics",
+      "imageSource" : "images/publications/1.png"
     },
     {
-      "authors": "Kumara, B.N., Velmurugan, K., Ghate, M.V., Shambhu, R., Nirmal, J. and Prasad, K.S.",
+      "authors": " Velmurugan, K., Ghate, M.V., Shambhu, R., Nirmal, J. and Prasad, K.S.",
+      "myName" :"Kumara, B.N.,",
       "year": 2024,
       "title": "A promising ‘single’ and ‘dual’ drug-nanocomposite enriched contact lens for the management of glaucoma in response to the tear fluid enzyme",
       "journal": "Journal of Materials Chemistry B",
       "volume": 12,
       "issue": 9,
-      "pages": "2394-2412"
+      "pages": "2394-2412",
+      "imageSource" : "images/publications/2.png"
     },
     {
-      "authors": "Kumara, B.N., Naveen, M.H., Sonia, J., Rafi, M., Bang, J.H. and Prasad, K.S.",
+      "authors": " Naveen, M.H., Sonia, J., Rafi, M., Bang, J.H. and Prasad, K.S.",
+      "myName" :"Kumara, B.N.,",
       "year": 2024,
       "title": "A simple naked eye detection of Pb2+ on a gold nanocluster decorated disposable paper spot arrays",
       "journal": "Physica Scripta",
       "volume": 99,
       "issue": 5,
-      "page": "055526"
+      "page": "055526",
+      "imageSource" : "images/publications/3.png"
     },
     {
-      "authors": "Kailasam, V., Kumara, B.N.*, Prasad, K.S. and Nirmal, J.",
+      "authors": "Kailasam, V., Prasad, K.S. and Nirmal, J.",
+      "myName" :"Kumara, B.N.*,",
       "year": 2024,
       "title": "Combination of self-assembling system and N, O-carboxymethyl chitosan improves ocular residence of anti-glaucoma drug",
       "journal": "European Journal of Pharmaceutics and Biopharmaceutics",
       "page": "114208",
-      "note": "* Equal first author"
+      "note": "* Equal first author",
+      "imageSource" : "images/publications/4.png"
     },
     {
-      "authors": "Sonia, J., Kumara, B.N., Pinto, K.J., Hashim, A., Priya, E.S., Kalpana, B., Thomas, R. and Prasad, K.S.",
+      "authors": "Sonia, J., Pinto, K.J., Hashim, A., Priya, E.S., Kalpana, B., Thomas, R. and Prasad, K.S.",
+      "myName" :"Kumara, B.N.,",
       "year": 2024,
       "title": "Disposable paper electrodes for detection of changes in dopamine concentrations in rat brain homogenates",
       "journal": "Talanta",
       "volume": 274,
-      "page": "125940"
+      "page": "125940",
+      "imageSource" : "images/publications/5.png"
     },
     {
-      "authors": "Sonia, J., Gokul, P.C., Venkadesh, A., Kumara, B.N. and Prasad, K.S.",
+      "authors": "Sonia, J., Gokul, P.C., Venkadesh, A., and Prasad, K.S.",
+      "myName" :"Kumara, B.N.,",
       "year": 2024,
       "title": "Nano Au decorated hybrid Cu2O cubes for non-enzymatic glucose sensing in beverages",
       "journal": "Journal of Applied Electrochemistry",
       "volume": 54,
       "issue": 1,
-      "pages": "137-145"
+      "pages": "137-145",
+      "imageSource" : "images/publications/6.png"
     },
     {
-      "authors": "Kumara, B.N., Shambhu, R., Shim, Y.B., Nirmal, J. and Prasad, K.S.",
+      "authors": " Shambhu, R., Shim, Y.B., Nirmal, J. and Prasad, K.S.",
+      "myName" :"Kumara, B.N.,",
       "year": 2023,
       "title": "Development of mucoadhesive Timolol loaded chitosan-nanocomposite to treat glaucoma",
       "journal": "International Journal of Biological Macromolecules",
       "volume": 253,
-      "page": "126917"
+      "page": "126917",
+      "imageSource" : "images/publications/7.png"
     },
     {
-      "authors": "Kumara, B.N., Gurudatt, N.G. and Prasad, K.S.",
+      "authors": " Gurudatt, N.G. and Prasad, K.S.",
+      "myName" :"Kumara, B.N.,",
       "year": 2023,
       "title": "Carboxymethyl-Hexanoyl Chitosan: A Promising Candidate for Hydrophobic and Hydrophilic Drug Delivery",
       "journal": "Carbohydrate Polymer Technologies and Applications",
-      "page": "100401"
+      "page": "100401",
+      "imageSource" : "images/publications/8.png"
     },
     {
-      "authors": "Kumara, B.N., Kalimuthu, P. and Prasad, K.S.",
+      "authors": " Kalimuthu, P. and Prasad, K.S.",
+      "myName" :"Kumara, B.N.,",
       "year": 2023,
       "title": "Synthesis, properties and potential applications of photoluminescent carbon nanoparticles: A review",
       "journal": "Analytica Chimica Acta",
       "page": "341430"
     },
     {
-      "authors": "Kumara, B.N, R. Shambhu, J. Nirmal, K. Sudhakara Prasad",
+      "authors": " R. Shambhu, J. Nirmal, K. Sudhakara Prasad",
+      "myName" :"Kumara, B.N.,",
       "year": 2023,
       "title": "Nanocarriers: A promising approach towards ocular therapeutic and drug delivery",
       "book": "Advances in Nanotechnology",
       "journal": "Nova Publications"
     },
     {
-      "authors": "Kumara, B.N., Shambhu, R., Prabhu, A. and Prasad, K.S.",
+      "authors": " Shambhu, R., Prabhu, A. and Prasad, K.S.",
+      "myName" :"Kumara, B.N.,",
       "year": 2022,
       "title": "Novel chitosan-graphene quantum dots composite for therapeutic delivery and tracking through enzymatic stimuli response",
       "journal": "Carbohydrate Polymers",
@@ -86,7 +105,8 @@
       "page": "119426"
     },
     {
-      "authors": "Manisha, H., Velayudham, M., Kumara, B.N., Naveen, M.H., Shim, Y.B. and Prasad, K.S.",
+      "authors": "Manisha, H., Velayudham, M., Naveen, M.H., Shim, Y.B. and Prasad, K.S.",
+      "myName" :"Kumara, B.N.,",
       "year": 2023,
       "title": "Revelation of fluorophore impurities among biocompatible blue fluorescent carbon nanodots derived from Hemigraphis alternata plant and bioimaging",
       "journal": "Carbon Letters",
@@ -95,7 +115,8 @@
       "pages": "931-946"
     },
     {
-      "authors": "Sapna, K., Sonia, J., Kumara, B.N., Arun, A.B. and Prasad, K.S.",
+      "authors": "Sapna, K., Sonia, J., Arun, A.B. and Prasad, K.S.",
+      "myName" :"Kumara, B.N.,",
       "year": 2022,
       "title": "Carbon Nanotubes for Bioimaging Applications",
       "book": "Handbook of Carbon Nanotubes",
@@ -103,7 +124,8 @@
       "pages": "1-21"
     },
     {
-      "authors": "Kumara, B.N., Shambhu, R. and Prasad, K.S.",
+      "authors": " Shambhu, R. and Prasad, K.S.",
+      "myName" :"Kumara, B.N.,",
       "year": 2021,
       "title": "Why chitosan could be apt candidate for glaucoma drug delivery-An overview",
       "journal": "International Journal of Biological Macromolecules",
@@ -111,14 +133,16 @@
       "pages": "47-65"
     },
     {
-      "authors": "Sapna, K., Sonia, J., Kumara, B.N., Nikhitha, A., Shenoy, M.M., Arun, A.B. and Prasad, K.S.",
+      "authors": "Sapna, K., Sonia, J., Nikhitha, A., Shenoy, M.M., Arun, A.B. and Prasad, K.S.",
+      "myName" :"Kumara, B.N.,",
       "year": 2020,
       "title": "Potential Environmental Effects of Engineered Antimicrobial Surfaces",
       "book": "Engineered Antimicrobial Surfaces",
       "pages": "135-163"
     },
     {
-      "authors": "Gurukiran, N., Kumara, B.N., Mohammed, R., Prahnanth, G. and Pathy, L.",
+      "authors": "Gurukiran, N., Mohammed, R., Prahnanth, G. and Pathy, L.",
+      "myName" :"Kumara, B.N.,",
       "year": 2017,
       "title": "Determination of heavy metal analysis in vegetable samples of Bengaluru and Tumukur some market places, Karnataka, India",
       "journal": "Technical Research Organization India",
@@ -127,7 +151,8 @@
       "pages": "13-18"
     },
     {
-      "authors": "Asim Syed Sheeraz, Edoth Aiswarya, B.N. Kumara, J. Sonia, Relisha Viyona Rodrigues, Nazmin Sheikh, Sachin Vidyasagar, Rachana A. Kunder, Selvakumar Elangovan, Priti Sundar Mohanty, K. Sudhakara Prasad",
+      "authors": "Asim Syed Sheeraz, Edoth Aiswarya, J. Sonia, Relisha Viyona Rodrigues, Nazmin Sheikh, Sachin Vidyasagar, Rachana A. Kunder, Selvakumar Elangovan, Priti Sundar Mohanty, K. Sudhakara Prasad",
+      "myName" :"Kumara, B.N.,",
       "title": "Additive Manufactured Paper-PMMA Hybrid Microfluidic Chip for Simultaneous Monitoring of artificial urine Creatinine and pH",
       "journal": "Analyst",
       "status": "Under review",
